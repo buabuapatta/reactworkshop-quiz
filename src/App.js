@@ -16,7 +16,7 @@ function App() {
   return (
     <DataContext.Provider value={{ appState, setAppState, score, setScore }}>
       <div className='App'>
-        <h1>Ask Aloud Quiz</h1>
+        <h1>Web Development and Programming Concepts Quiz</h1>
         {appState === "Menu" && <Menu />}
         {appState === "Quiz" && <Quiz />}
         {appState === "Score" && <Score />}
